@@ -177,7 +177,7 @@ public class AddCustomer extends JFrame {
 	    			String s5 =  t3.getText();
 	    			String s7 =  t5.getText();  //address
                                 String s8 =  t6.getText();
-                                String s10 = t8.getText(); //email
+                                String s10 = t8.getText(); //email of the user
                                 
                                 String q1 = "insert into customer values('"+s9+"','"+s1+"','"+s2+"','"+s3+"','"+s4+"','"+s5+"','"+s7+"','"+s8+"','"+s10+"')";
                                 c.s.executeUpdate(q1);
